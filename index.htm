@@ -46,7 +46,7 @@
         const player = window.RufflePlayer.newest();
         const swf = player.createPlayer();
         container.appendChild(swf);
-        swf.load("organJiv.swf").then(() => {
+        swf.load("1.swf").then(() => {
           // Попытка перейти в полноэкранный режим
           if (container.requestFullscreen) {
             container.requestFullscreen().catch(err => {
